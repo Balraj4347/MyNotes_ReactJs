@@ -8,15 +8,15 @@ const DataProvider = ({ children }) => {
   const TrNotes = localStorage.getItem("deleteNotes");
 
   const [notes, setNotes] = useState(() => {
-    if (LsNotes.length !== 0) return JSON.parse(LsNotes);
+    if (LsNotes != null && LsNotes.length !== 0) return JSON.parse(LsNotes);
     return [];
   });
   const [archiveNotes, setArchiveNotes] = useState(() => {
-    if (ArNotes.length !== 0) return JSON.parse(ArNotes);
+    if (ArNotes != null && ArNotes.length !== 0) return JSON.parse(ArNotes);
     return [];
   });
   const [deleteNotes, setDeleteNotes] = useState(() => {
-    if (TrNotes.length !== 0) return JSON.parse(TrNotes);
+    if (TrNotes != null && TrNotes.length !== 0) return JSON.parse(TrNotes);
     return [];
   });
 

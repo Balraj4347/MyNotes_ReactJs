@@ -57,7 +57,6 @@ const Notes = () => {
                       {(provided) => (
                         <Grid
                           item
-                          spacing={3}
                           ref={provided.innerRef}
                           {...provided.draggableProps}
                           {...provided.dragHandleProps}

@@ -19,8 +19,8 @@ const NavText = styled(Typography)`
 `;
 
 const NavBar = ({ open, handleDrawer }) => {
-  const logo = "NotesLogo.png";
-  const me = "me.png";
+  const logo = "https://cdn-icons-png.flaticon.com/512/564/564445.png";
+  const me = "https://avatars.githubusercontent.com/u/97168376?v=4";
   return (
     <HeadBar position="fixed" open={open}>
       <Toolbar>

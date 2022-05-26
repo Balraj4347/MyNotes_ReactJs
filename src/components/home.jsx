@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import LeftDrawer from "./headerComp/leftDrawer";
 import Notes from "./Notes/Notes";
 import Deletes from "../components/Trash/Deletes";

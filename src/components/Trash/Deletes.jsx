@@ -36,6 +36,7 @@ const Deletes = () => {
     <Box sx={{ display: "flex", width: "100%" }}>
       <Box sx={{ p: 3, width: "100%" }}>
         <DrawerHeader />
+        <h2 style={{ color: "red" }}>Trash</h2>
         {deleteNotes.length > 0 ? (
           <DragDropContext onDragEnd={onDragEnd}>
             <Droppable droppableId="droppable">

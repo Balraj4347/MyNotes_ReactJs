@@ -35,6 +35,7 @@ const Notes = () => {
     <Box sx={{ display: "flex", width: "100%" }}>
       <Box sx={{ p: 3, width: "100%" }}>
         <DrawerHeader />
+        <h2 style={{ color: "blue" }}>Notes</h2>
         <Form />
         {notes.length > 0 ? (
           <DragDropContext onDragEnd={onDragEnd}>

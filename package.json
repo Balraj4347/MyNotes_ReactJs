@@ -1,7 +1,7 @@
 {
   "name": "google-keep-clone",
   "version": "0.1.0",
-  "homepage": "https://balraj4347.github.io",
+  "homepage": "https://balraj4347.github.io/mynotes-reactjs/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
